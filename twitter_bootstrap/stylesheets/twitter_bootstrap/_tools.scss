@@ -1,0 +1,7 @@
+// personal tools
+// Twitter_grid_column
+
+@mixin grid_columns($nbre_cols) {
+  @include columns($nbre_cols);
+  @include gridColumn();
+}
